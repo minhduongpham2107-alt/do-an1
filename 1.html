@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BBQ치킨 의정부신곡중앙점</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+    color:#333;
+}
+
+header{
+    background:#d62828;
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+}
+
+header h1{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:18px;
+}
+
+.gallery{
+    max-width:1200px;
+    margin:40px auto;
+    padding:20px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:25px;
+}
+
+.card{
+    position:relative;
+    overflow:hidden;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+    background:white;
+}
+
+.card img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+    display:block;
+    transition:0.5s;
+}
+
+.card:hover img{
+    transform:scale(1.1);
+}
+
+.overlay{
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    padding:20px;
+    color:white;
+    background:rgba(0,0,0,0.75);
+    transform:translateY(100%);
+    transition:0.4s;
+}
+
+.card:hover .overlay{
+    transform:translateY(0);
+}
+
+.overlay h3{
+    color:#ffd60a;
+    margin-bottom:8px;
+}
+
+.info{
+    max-width:1200px;
+    margin:20px auto;
+    padding:30px;
+    background:white;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.info h2{
+    color:#d62828;
+    margin-bottom:20px;
+}
+
+.info p{
+    margin:10px 0;
+    line-height:1.8;
+}
+
+.map{
+    margin-top:20px;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>🍗 BBQ치킨 의정부신곡중앙점</h1>
+    <p>Gà rán & gà nướng BBQ chuẩn Hàn Quốc</p>
+</header>
+
+<section class="gallery">
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1562967916-eb82221dfb92?w=1200" alt="황금올리브치킨">
+        <div class="overlay">
+            <h3>황금올리브치킨</h3>
+            <p>Món gà đặc trưng nổi tiếng nhất của BBQ Chicken.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1527477396000-e27163b481c2?w=1200" alt="매운양념치킨">
+        <div class="overlay">
+            <h3>매운양념치킨</h3>
+            <p>Gà sốt cay đậm đà theo phong cách Hàn Quốc.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1518492104633-130d0cc84637?w=1200" alt="허니갈릭치킨">
+        <div class="overlay">
+            <h3>허니갈릭치킨</h3>
+            <p>Vị mật ong và tỏi thơm ngọt hấp dẫn.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=1200" alt="치즈치킨">
+        <div class="overlay">
+            <h3>치즈치킨</h3>
+            <p>Gà phủ phô mai béo ngậy, được nhiều khách yêu thích.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1608039755401-742074f0548d?w=1200" alt="패밀리세트">
+        <div class="overlay">
+            <h3>패밀리세트</h3>
+            <p>Combo gia đình phù hợp cho nhóm bạn và người thân.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1513639776629-7b61b0ac49cb?w=1200" alt="통닭구이">
+        <div class="overlay">
+            <h3>통닭구이</h3>
+            <p>Gà nướng nguyên con với lớp da vàng giòn hấp dẫn.</p>
+        </div>
+    </div>
+
+</section>
+
+<section class="info">
+    <h2>📍 Thông Tin Cửa Hàng</h2>
+
+    <p><strong>Tên quán:</strong> BBQ치킨 의정부신곡중앙점</p>
+
+    <p><strong>Địa chỉ:</strong><br>
+    경기도 의정부시 경의로 196, 1층<br>
+    196 Gyeongui-ro, Uijeongbu-si, Gyeonggi-do, Korea
+    </p>
+
+    <p><strong>Điện thoại:</strong> 031-855-6295</p>
+
+    <p><strong>Giờ mở cửa:</strong> 14:00 ~ 23:00</p>
+
+    <p><strong>Dịch vụ:</strong> Ăn tại quán · Mang về · Giao hàng</p>
+
+    <div class="map">
+        <iframe
+            src="https://maps.google.com/maps?q=196%20Gyeongui-ro%20Uijeongbu&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            width="100%"
+            height="400"
+            style="border:0;border-radius:12px;"
+            allowfullscreen=""
+            loading="lazy">
+        </iframe>
+    </div>
+</section>
+
+<footer>
+    <h3>🍗 BBQ치킨 의정부신곡중앙점</h3>
+    <p>Chất lượng tạo nên thương hiệu</p>
+    <p>© 2026 BBQ Chicken Korea</p>
+</footer>
+
+</body>
+</html>
